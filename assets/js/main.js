@@ -1,5 +1,5 @@
 /**
- * Theme : Argo 
+ * Theme : StartupEnginner 
  * Author: WPStrong
  * Url: http://themeforest.net/user/wpstrong
  * Version: 1.0

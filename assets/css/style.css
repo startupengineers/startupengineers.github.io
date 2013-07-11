@@ -1,5 +1,5 @@
 /*!
- * Theme Name: Argo
+ * Theme Name: StartupEnginner
  * Theme URI: http://themestrong.com
  * Version: 1.0
  * Description: 
@@ -4081,9 +4081,7 @@ button.close {
 }
 .navbar .nav {
   position: relative;
-  left: 0;
   display: block;
-  float: left;
   margin: 0 10px 0 0;
 }
 .navbar .nav.pull-right {

@@ -13,162 +13,17 @@
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" >
    	<script src="assets/js/jquery.js"></script>
     <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-       <link href="assets/css/ie.css" rel='stylesheet' type='text/css'>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+     <!--[if  IE]>
+        <link href="assets/css/ie.css" rel='stylesheet' type='text/css'>
+    <![endif]-->
     <!--[if IE 7]>
 		<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
 	<![endif]-->
 </head>
 <body data-spy="scroll" data-target=".navbar">
-<header id="header">
-	<div class="header-holder">
-		<div class="container hidden-phone">
-			<div class="brow">
-				<div class="brick1 logo_container">
-					<a href="#" class="nav-item clearfix">
-						<div class="nav-hover"></div>
-						<h1 class="logo">Argo</h1>
-					</a>
-				</div>
-				<div class="brick1 transparent"></div>
-			</div>
-			<div class="brow">
-				<div class="slogan brick3 boffset1 transparent text-right">
-					<div class="inner">
-						<h1>Argo Theme dolor sit amet tElasde</h1>
-					<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut
-dolore magna aliqua. <br>
-Ut enim ad minim veniam, quis nostrud ARGO.</p>	
-					</div>
-					
-				</div>
-				<div class="brick1 odd">
-					<a href="#services" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_bulb"></i>
-						<span>Services</span>
-					</a>
-				</div>
-				<div class="brick1 thumb">
-					<div class="nav-item flipX">
-						<img class="img1" src="assets/img/img-slide1.png" alt="">
-						<img class="img2" src="assets/img/pf4.png" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="brow">
-				<div class="brick1 thumb">
-					<div class="nav-item flipX">
-						<img class="img1" src="assets/img/img-slide2.png" alt="">
-						<img class="img2" src="assets/img/pf10.png" alt="">
-					</div>
-				</div>
-				<div class="brick1 odd">
-					<a href="#portfolio" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_photo"></i>
-						<span>Portfolio</span>
-					</a>
-				</div>
-				<div class="brick1">
-					<a href="#about-us" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_bubble"></i>
-						<span>About us</span>
-					</a>
-				</div>
-				<div class="brick1 thumb">
-					<div class="nav-item flipY">
-						<img class="img1" src="assets/img/img-slide3.png" alt="">
-						<img class="img2" src="assets/img/pf11.png" alt="">
-					</div>
-				</div>
-				<div class="brick1 thumb">
-					<div class="nav-item flipX">
-						<img class="img1" src="assets/img/img-slide4.png" alt="">
-						<img class="img2" src="assets/img/pf8.png" alt="">
-					</div>
-				</div>
-				<div class="brick1">
-					<a href="#blog" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_note"></i>
-						<span>Blog</span>
-					</a>
-				</div>
-			</div>
-			<div class="brow">
-				<div class="brick1 boffset2 thumb">
-					<div class="nav-item flipY">
-						<img class="img1" src="assets/img/img-slide5.png" alt="">
-						<img class="img2" src="assets/img/pf7.png" alt="">
-					</div>
-				</div>
-				<div class="brick1 thumb">
-					<div class="nav-item flipY">
-						<img class="img1" src="assets/img/img-slide6.png" alt="">
-						<img class="img2" src="assets/img/pf6.png" alt="">
-					</div>
-				</div>
-				<div class="brick1 odd">
-					<a href="#contact" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_paperplane"></i>
-						<span>Contact us</span>
-					</a>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="container visible-phone">
-			<div class="brick1 logo_container">
-					<a href="#" class="nav-item clearfix">
-						<div class="nav-hover"></div>
-						<h1 class="logo">Argo</h1>
-					</a>
-				</div>
-				<div class="brick1 odd">
-					<a href="#services" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_bulb"></i>
-						<span>Services</span>
-					</a>
-				</div>
-				<div class="brick1 odd">
-					<a href="#portfolio" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_photo"></i>
-						<span>Portfolio</span>
-					</a>
-				</div>
-				<div class="brick1">
-					<a href="#about-us" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_bubble"></i>
-						<span>About us</span>
-					</a>
-				</div>
-				<div class="brick1">
-					<a href="#blog" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_note"></i>
-						<span>Blog</span>
-					</a>
-				</div>
-				<div class="brick1 odd">
-					<a href="#contact" class="nav-item">
-						<div class="nav-hover"></div>
-						<i class="li_paperplane"></i>
-						<span>Contact us</span>
-					</a>
-				</div>
-		</div>
-	</div>
-</header> <!-- End header -->
-<div id="navbar" class="navbar">
+<div id="navbar" class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
@@ -176,7 +31,7 @@ Ut enim ad minim veniam, quis nostrud ARGO.</p>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="brand">Argo</a>
+      <a href="#" class="brand">StartupEnginner</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li class="">
@@ -188,9 +43,9 @@ Ut enim ad minim veniam, quis nostrud ARGO.</p>
            <li class="">
             <a href="#about-us"><i class="li_bubble"></i>About us</a>
           </li>
-          <li class="">
+          <!--<li class="">
             <a href="#blog"><i class="li_note"></i>Blog</a>
-          </li>
+          </li>-->
           <li class="">
             <a href="#contact"><i class="li_paperplane"></i>Contact us</a>
           </li>
@@ -199,6 +54,61 @@ Ut enim ad minim veniam, quis nostrud ARGO.</p>
     </div>
   </div>
 </div> <!-- end navbar -->
+
+<div id="slider" class="">
+	<div class="container">
+		<div id="sequence">
+			<ul class="sequence-canvas">
+				<li class="slide slide1">
+					<img class="item1" src="assets/img/slide/slide3_1.png" alt="">
+					<img class="item2" src="assets/img/slide/slide3_2.png" alt="">
+					<div class="hero">
+						<h2>Argo Theme dolor sit amet Elasde</h2>
+						<p>
+							Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							dolore magna aliqua. br
+							Ut enim ad minim veniam, quis nostrud ARGO.
+						</p>
+						<p>
+							<button class="btn btn-large  " type="button"><div class="nav-hover"></div>Purchase now</button><button class="btn btn-large btn-primary" type="button"><div class="nav-hover"></div>Learn more</button>
+						</p>
+					</div>
+		            	
+				</li>
+				<li class="slide slide2">
+					<img class="item1" src="assets/img/slide/slide2_1.png" alt="">
+					<img class="item2" src="assets/img/slide/slide2_2.png" alt="">
+					<img class="item3" src="assets/img/slide/slide2_3.png" alt="">
+					<div class="hero">
+						<h2>Argo is Great theme <br> with possibilities and options!</h2>
+						<p>
+							Argo Theme is awesome with clean, elegant design and easily to customize.<br>
+							Ut enim ad minim veniam, quis nostrud ARGO.
+						</p>
+						<p>
+							<button class="btn btn-large  " type="button"><div class="nav-hover"></div>Purchase now</button><button class="btn btn-large btn-primary" type="button"><div class="nav-hover"></div>Learn more</button>
+						</p>
+					</div>
+		        </li>
+		        <li class="slide slide3">
+					<img class="item1" src="assets/img/slide/slide1_1.png" alt="">
+					<img class="item2" src="assets/img/slide/slide1_2.png" alt="">
+					<img class="item3" src="assets/img/slide/slide1_3.png" alt="">
+					<div class="hero">
+						<h2>Responsive , Rentina ready</h2>
+						<p>
+							Argo Theme is awesome with clean, elegant design and easily to customize.<br>
+							Ut enim ad minim veniam, quis nostrud ARGO.
+						</p>
+					</div>
+		        </li>
+			</ul>
+			<a class="left sequence-prev carousel-control" href="javascript:void(0);" >&lsaquo;</a>
+            <a class="right sequence-next carousel-control" href="javascript:void(0);">&rsaquo;</a>
+		</div>
+	</div>
+</div>
+
 <div id="services" class="section">
 	<div class="container">
 		<div class="hero">
@@ -819,9 +729,11 @@ We are very proud of our new website. It has much improved functionality and met
 <script src="assets/js/bootstrap-scrollspy.js"></script>
 
 <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/sequence.jquery-min.js"></script>
 <script src="assets/js/jquery.mousewheel.min.js"></script>
 <script src="assets/js/jquery.hoverdir.js"></script>
 <script src="assets/js/jquery.isotope.min.js"></script>
+<script src="assets/js/argo.slide.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>
